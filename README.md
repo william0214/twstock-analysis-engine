@@ -12,27 +12,31 @@
 
 ## 功能
 
-系統每日從台灣證券交易所 OpenAPI 擷取全市場行情快照,跑過以下步驟並輸出四類報告
-(見下方「範例輸出」):
+### 1. 資料擷取(`stock_data_crawler.py` / `crawl_latest_data.py` / `api_data_updater.py`)
+- 從台灣證券交易所(TWSE)公開 OpenAPI(`https://openapi.twse.com.tw/v1`,無需金鑰)
+  爬取全市場行情,篩出漲停股、強勢股與小型股子集
+- 包含股價(開高低收)、成交量、市值、本益比等資訊
+- 對連線逾時、JSON 解析錯誤等例外都有捕捉處理;目前是單次請求失敗即記錄並跳過,
+  **沒有自動重試迴圈**
 
-1. **資料擷取**(`stock_data_crawler.py` + `crawl_latest_data.py` + `api_data_updater.py`):
-   向 `https://openapi.twse.com.tw/v1`(政府公開資料,無需金鑰)取得全市場個股行情、
-   大盤指數與本益比資料,篩出漲停股、強勢股與小型股子集,存成每日快照。
-2. **技術面評分**(`technical_analysis.py`):針對每檔個股計算動能分數、量能強度、
-   價格波動度、籌碼集中度、流動性分數與風險等級等自建指標,不依賴單一傳統指標
-   (如 RSI/MACD),而是綜合多個面向算出一個 0-100 的技術評分。
-3. **多代理人分析**(`multi_agent_analyzer.py`):由四個獨立 Agent 各自給出意見再彙總——
-   `TechnicalAgent`(技術面)、`ChipAgent`(籌碼面)、`SectorAgent`(類股面)、
-   `RiskAgent`(風險面),模擬多角度會診而非單一評分模型。
-4. **產業/類股動能**(`industry_classifier.py` + `sector_momentum_analyzer.py`):
-   先將個股分類到產業,再計算該產業類股當日的整體動能強弱。
-5. **選股分級**(`stock_selector.py`):綜合上述評分,將個股分成 `A+`/`A`(頂級推薦)
-   與 `B+`(高勝率推薦)兩組推薦名單。
-6. **市場統計**(`statistics_calculator.py`)與**報告生成**(`market_report_generator.py`):
-   彙整當日市場漲跌家數、情緒方向、產業表現等統計,產出 Markdown 格式的每日市場分析報告。
-7. **策略回測驗證**(`strategy_validation_analyzer.py`):追蹤每筆推薦在 1/3/5/10 日後的
-   實際報酬,以「推薦後 3 日報酬 > 0」為成功標準計算歷史勝率,產出驗證報告。
-8. **參數自動優化**(`auto_strategy_optimizer.py`):定期依驗證結果調整選股評分權重與門檻。
+### 2. 技術分析(`technical_analysis.py` / `multi_agent_analyzer.py` / `sector_momentum_analyzer.py` / `stock_selector.py`)
+- 計算一組**自建**技術指標(非傳統 RSI / 布林帶 / 變異係數):動能分數、量能強度、
+  價格波動度、籌碼集中度、流動性分數、風險等級
+- 綜合多個面向算出 0-100 分的技術評分,並由四個獨立 Agent(技術面/籌碼面/類股面/風險面)
+  交叉評估後彙總,模擬多角度會診而非單一評分模型
+- 依評分將個股分為 `A+`/`A`(頂級推薦)與 `B+`(高勝率推薦),識別具漲停潛力的股票
+
+### 3. 策略優化(`auto_strategy_optimizer.py`)
+- 每 20 個交易日自動回測和優化
+- 基於勝率(推薦後 3 日正報酬比例)和平均報酬調整評分參數
+- 保存優化歷史記錄
+
+### 4. 報告生成(`market_report_generator.py` / `statistics_calculator.py` / `strategy_validation_analyzer.py`)
+- Markdown 格式的每日市場分析報告與策略驗證報告
+- PNG 圖表:`market_statistics_overview.png`、`recommendation_analysis.png`、
+  `strategy_validation_analysis.png`
+- CSV 格式的漲停股 / 強勢股清單
+- JSON 格式的技術分析與統計計算詳細數據
 
 ## 檔案說明
 
