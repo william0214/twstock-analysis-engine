@@ -26,6 +26,17 @@ plt.rcParams['axes.unicode_minus'] = False
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+class NumpyEncoder(json.JSONEncoder):
+    """將 numpy 純量型別（int64/float64 等）轉為原生 Python 型別，避免 json.dump 序列化失敗"""
+    def default(self, obj):
+        if isinstance(obj, np.integer):
+            return int(obj)
+        if isinstance(obj, np.floating):
+            return float(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return super().default(obj)
+
 class StockAnalyzer:
     """股票分析器"""
     
@@ -457,7 +468,7 @@ def main():
     analysis_filepath = os.path.join(TECHNICAL_ANALYSIS_DIR, analysis_file)
     
     with open(analysis_filepath, 'w', encoding='utf-8') as f:
-        json.dump(analysis, f, ensure_ascii=False, indent=2)
+        json.dump(analysis, f, ensure_ascii=False, indent=2, cls=NumpyEncoder)
     
     logger.info(f"分析報告已保存: {analysis_filepath}")
     
