@@ -1,0 +1,783 @@
+{
+  "timestamp": "2026-06-23T07:30:17.965869",
+  "market_statistics": {
+    "basic_statistics": {
+      "total_stocks": 1367,
+      "trading_stocks": 1364,
+      "avg_change_percent": 0.925668135095448,
+      "median_change_percent": 0.16,
+      "std_change_percent": 3.2008242236187887,
+      "total_volume": 12706949822.0,
+      "total_value": 1511181054245.0,
+      "avg_volume": 9315945.617302053,
+      "median_volume": 996432.5
+    },
+    "change_distribution": {
+      "limit_up_count": 68,
+      "strong_up_count": 67,
+      "moderate_up_count": 190,
+      "mild_up_count": 385,
+      "flat_count": 120,
+      "mild_down_count": 398,
+      "moderate_down_count": 106,
+      "strong_down_count": 25,
+      "limit_down_count": 3
+    },
+    "volume_distribution": {
+      "q25": 225131.75,
+      "q50": 996432.5,
+      "q75": 4908842.75,
+      "q90": 20086895.3,
+      "q95": 38187383.14999999,
+      "high_volume_count": 137,
+      "low_volume_count": 341
+    },
+    "price_distribution": {
+      "under_10": 74,
+      "range_10_50": 709,
+      "range_50_100": 273,
+      "range_100_500": 238,
+      "over_500": 68
+    },
+    "market_cap_distribution": {
+      "micro_cap": 1154,
+      "small_cap": 179,
+      "mid_cap": 24,
+      "large_cap": 5
+    }
+  },
+  "performance_metrics": {
+    "limit_up_performance": {
+      "count": 68,
+      "avg_change": 9.90294117647059,
+      "avg_volume": 25434217.11764706,
+      "avg_value": 4297159517.691176,
+      "total_value": 292206847203.0,
+      "avg_market_cap": 4361111050.07206,
+      "volume_efficiency": 168.95190828223576
+    },
+    "strong_stocks_performance": {
+      "count": 192,
+      "avg_change": 6.682083333333334,
+      "avg_volume": 25883477.828125,
+      "avg_value": 3276750695.3333335,
+      "total_value": 629136133504.0,
+      "avg_score": 14.362641131250001,
+      "avg_market_cap": 3303678627.9019794
+    },
+    "technical_performance": {
+      "limit_up_avg_score": 65.91661764705883,
+      "strong_avg_score": 75.96099999999998,
+      "high_grade_ratio": 54.54545454545454,
+      "low_risk_ratio": 12.5
+    }
+  },
+  "final_recommendations": [
+    {
+      "rank": 1,
+      "code": "00631L",
+      "name": "元大台灣50正2",
+      "closing_price": 41.32,
+      "change_percent": 7.8,
+      "volume": 290716085.0,
+      "market_value": 12012388632.2,
+      "technical_score": 68.01,
+      "chip_score": 88.02,
+      "total_score": 86.27,
+      "rating": "A+",
+      "recommendation": "強烈推薦",
+      "risk_level": "低風險",
+      "recommendation_score": 100,
+      "potential_assessment": "極高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [],
+      "momentum_score": 8.9,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 2,
+      "code": "1802",
+      "name": "台玻",
+      "closing_price": 76.6,
+      "change_percent": 7.43,
+      "volume": 172733646.0,
+      "market_value": 13231397283.599998,
+      "technical_score": 62.08,
+      "chip_score": 87.69,
+      "total_score": 81.7,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "低風險",
+      "recommendation_score": 98.46925,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "量價配合良好",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [],
+      "momentum_score": 7.634999999999993,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 3,
+      "code": "1905",
+      "name": "華紙",
+      "closing_price": 18.45,
+      "change_percent": 7.89,
+      "volume": 73132002.0,
+      "market_value": 1349285436.8999999,
+      "technical_score": 60.07,
+      "chip_score": 88.1,
+      "total_score": 80.36,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "低風險",
+      "recommendation_score": 96.75325000000001,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "量價配合良好",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [],
+      "momentum_score": 7.194999999999997,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 4,
+      "code": "6213",
+      "name": "聯茂",
+      "closing_price": 308.0,
+      "change_percent": 10.0,
+      "volume": 36208426.0,
+      "market_value": 11152195208.0,
+      "technical_score": 73.33,
+      "chip_score": 90.0,
+      "total_score": 79.16,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 87.16,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 10.0,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 5,
+      "code": "2492",
+      "name": "華新科",
+      "closing_price": 617.0,
+      "change_percent": 9.98,
+      "volume": 20258065.0,
+      "market_value": 12499226105.0,
+      "technical_score": 73.28,
+      "chip_score": 89.98,
+      "total_score": 79.13,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 87.125,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.99,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 6,
+      "code": "6282",
+      "name": "康舒",
+      "closing_price": 63.9,
+      "change_percent": 9.98,
+      "volume": 56918124.0,
+      "market_value": 3637068123.6,
+      "technical_score": 73.28,
+      "chip_score": 89.98,
+      "total_score": 79.13,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 87.125,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.99,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 7,
+      "code": "2301",
+      "name": "光寶科",
+      "closing_price": 231.5,
+      "change_percent": 9.98,
+      "volume": 45443527.0,
+      "market_value": 10520176500.5,
+      "technical_score": 73.28,
+      "chip_score": 89.98,
+      "total_score": 79.13,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 87.125,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.99,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 8,
+      "code": "6770",
+      "name": "力積電",
+      "closing_price": 81.6,
+      "change_percent": 9.97,
+      "volume": 133236652.0,
+      "market_value": 10872110803.199999,
+      "technical_score": 73.26,
+      "chip_score": 89.97,
+      "total_score": 79.11,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 87.10249999999999,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.985,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 9,
+      "code": "1409",
+      "name": "新纖",
+      "closing_price": 28.15,
+      "change_percent": 9.96,
+      "volume": 36341896.0,
+      "market_value": 1023024372.4,
+      "technical_score": 73.23,
+      "chip_score": 89.96,
+      "total_score": 79.09,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 87.08,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.98,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 10,
+      "code": "4526",
+      "name": "東台",
+      "closing_price": 43.05,
+      "change_percent": 9.96,
+      "volume": 14580133.0,
+      "market_value": 627674725.65,
+      "technical_score": 73.23,
+      "chip_score": 89.96,
+      "total_score": 79.09,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 87.08,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.98,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 11,
+      "code": "2305",
+      "name": "全友",
+      "closing_price": 37.0,
+      "change_percent": 9.96,
+      "volume": 16289442.0,
+      "market_value": 602709354.0,
+      "technical_score": 73.23,
+      "chip_score": 89.96,
+      "total_score": 79.09,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 87.08,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.98,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 12,
+      "code": "2409",
+      "name": "友達",
+      "closing_price": 30.95,
+      "change_percent": 9.95,
+      "volume": 297702512.0,
+      "market_value": 9213892746.4,
+      "technical_score": 73.21,
+      "chip_score": 89.96,
+      "total_score": 79.07,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 87.05749999999999,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.975,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 13,
+      "code": "4989",
+      "name": "榮科",
+      "closing_price": 94.0,
+      "change_percent": 9.94,
+      "volume": 11160142.0,
+      "market_value": 1049053348.0,
+      "technical_score": 73.19,
+      "chip_score": 89.95,
+      "total_score": 79.05,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 87.035,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.969999999999999,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 14,
+      "code": "6269",
+      "name": "台郡",
+      "closing_price": 87.5,
+      "change_percent": 9.92,
+      "volume": 16775499.0,
+      "market_value": 1467856162.5,
+      "technical_score": 73.14,
+      "chip_score": 89.93,
+      "total_score": 79.01,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 86.99000000000001,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.96,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 15,
+      "code": "1809",
+      "name": "中釉",
+      "closing_price": 56.5,
+      "change_percent": 9.92,
+      "volume": 16413912.0,
+      "market_value": 927386028.0,
+      "technical_score": 73.14,
+      "chip_score": 89.93,
+      "total_score": 79.01,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 86.99000000000001,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.96,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 16,
+      "code": "4919",
+      "name": "新唐",
+      "closing_price": 216.0,
+      "change_percent": 9.92,
+      "volume": 10024799.0,
+      "market_value": 2165356584.0,
+      "technical_score": 73.14,
+      "chip_score": 89.93,
+      "total_score": 79.01,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 86.99000000000001,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.96,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 17,
+      "code": "2369",
+      "name": "菱生",
+      "closing_price": 40.5,
+      "change_percent": 9.91,
+      "volume": 50186512.0,
+      "market_value": 2032553736.0,
+      "technical_score": 73.11,
+      "chip_score": 89.92,
+      "total_score": 78.99,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 86.9675,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.955,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 18,
+      "code": "2426",
+      "name": "鼎元",
+      "closing_price": 89.9,
+      "change_percent": 9.9,
+      "volume": 37157368.0,
+      "market_value": 3340447383.2000003,
+      "technical_score": 73.09,
+      "chip_score": 89.91,
+      "total_score": 78.98,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 86.955,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.95,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 19,
+      "code": "6271",
+      "name": "同欣電",
+      "closing_price": 266.5,
+      "change_percent": 9.9,
+      "volume": 27332596.0,
+      "market_value": 7284136834.0,
+      "technical_score": 73.09,
+      "chip_score": 89.91,
+      "total_score": 78.98,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 86.955,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.95,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    },
+    {
+      "rank": 20,
+      "code": "2408",
+      "name": "南亞科",
+      "closing_price": 505.0,
+      "change_percent": 9.9,
+      "volume": 96419516.0,
+      "market_value": 48691855580.0,
+      "technical_score": 73.09,
+      "chip_score": 89.91,
+      "total_score": 78.98,
+      "rating": "A",
+      "recommendation": "推薦",
+      "risk_level": "中風險",
+      "recommendation_score": 86.955,
+      "potential_assessment": "高潛力",
+      "key_strengths": [
+        "強勁動能",
+        "量價配合良好",
+        "收盤接近高點",
+        "流動性佳",
+        "市場情緒樂觀",
+        "交易活躍"
+      ],
+      "key_risks": [
+        "漲停回檔風險"
+      ],
+      "momentum_score": 9.95,
+      "liquidity_score": 100.0,
+      "investor_sentiment": "樂觀積極",
+      "activity_level": "極度活躍"
+    }
+  ],
+  "visualization_files": [
+    "market_statistics_overview.png",
+    "recommendation_analysis.png"
+  ],
+  "summary": {
+    "market_summary": {
+      "total_stocks": 1367,
+      "trading_stocks": 1364,
+      "market_direction": "up",
+      "avg_change": 0.93,
+      "total_volume_billion": 12.71,
+      "total_value_billion": 15111.81
+    },
+    "recommendation_summary": {
+      "total_recommendations": 20,
+      "avg_score": 79.62,
+      "high_potential_count": 20,
+      "low_risk_count": 3,
+      "top_recommendation": {
+        "rank": 1,
+        "code": "00631L",
+        "name": "元大台灣50正2",
+        "closing_price": 41.32,
+        "change_percent": 7.8,
+        "volume": 290716085.0,
+        "market_value": 12012388632.2,
+        "technical_score": 68.01,
+        "chip_score": 88.02,
+        "total_score": 86.27,
+        "rating": "A+",
+        "recommendation": "強烈推薦",
+        "risk_level": "低風險",
+        "recommendation_score": 100,
+        "potential_assessment": "極高潛力",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [],
+        "momentum_score": 8.9,
+        "liquidity_score": 100.0,
+        "investor_sentiment": "樂觀積極",
+        "activity_level": "極度活躍"
+      }
+    },
+    "performance_summary": {
+      "limit_up_performance": {
+        "count": 68,
+        "avg_change": 9.90294117647059,
+        "avg_volume": 25434217.11764706,
+        "avg_value": 4297159517.691176,
+        "total_value": 292206847203.0,
+        "avg_market_cap": 4361111050.07206,
+        "volume_efficiency": 168.95190828223576
+      },
+      "strong_stocks_performance": {
+        "count": 192,
+        "avg_change": 6.682083333333334,
+        "avg_volume": 25883477.828125,
+        "avg_value": 3276750695.3333335,
+        "total_value": 629136133504.0,
+        "avg_score": 14.362641131250001,
+        "avg_market_cap": 3303678627.9019794
+      },
+      "technical_performance": {
+        "limit_up_avg_score": 65.91661764705883,
+        "strong_avg_score": 75.96099999999998,
+        "high_grade_ratio": 54.54545454545454,
+        "low_risk_ratio": 12.5
+      }
+    }
+  }
+}

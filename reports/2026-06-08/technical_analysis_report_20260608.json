@@ -1,0 +1,2781 @@
+{
+  "timestamp": "2026-06-08T07:30:18.549987",
+  "limit_up_analysis": [
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "6155",
+        "Name": "鈞寶",
+        "TradeVolume": 16373795.0,
+        "TradeValue": 1242439141.0,
+        "OpeningPrice": 70.7,
+        "HighestPrice": 79.3,
+        "LowestPrice": 69.0,
+        "ClosingPrice": 79.3,
+        "Change": 7.2,
+        "Transaction": 10526.0,
+        "ChangePercent": 9.99,
+        "MarketValue": 1298441943.5
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 14.568599717114564,
+        "price_momentum": 9.99,
+        "volume_intensity": 1298441943.5,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 99.92999999999998,
+        "momentum_score": 9.995000000000001,
+        "risk_level": "中風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 118035.25945278359,
+          "avg_trade_volume": 1555.5571917157515,
+          "total_transactions": 10526.0,
+          "trade_intensity": 16.373795
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1555.5571917157515,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 99.98,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 79.15,
+        "technical_score": 73.31,
+        "chip_score": 89.99,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "1810",
+        "Name": "和成",
+        "TradeVolume": 23846581.0,
+        "TradeValue": 536312179.0,
+        "OpeningPrice": 22.1,
+        "HighestPrice": 22.6,
+        "LowestPrice": 21.85,
+        "ClosingPrice": 22.6,
+        "Change": 2.05,
+        "Transaction": 7381.0,
+        "ChangePercent": 9.98,
+        "MarketValue": 538932730.6
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 3.3936651583710407,
+        "price_momentum": 9.98,
+        "volume_intensity": 538932730.6,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 99.86,
+        "momentum_score": 9.99,
+        "risk_level": "中風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 72661.18127624983,
+          "avg_trade_volume": 3230.806259314456,
+          "total_transactions": 7381.0,
+          "trade_intensity": 23.846581
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 3230.806259314456,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 99.96000000000001,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 79.13,
+        "technical_score": 73.28,
+        "chip_score": 89.98,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "3376",
+        "Name": "新日興",
+        "TradeVolume": 15188148.0,
+        "TradeValue": 3508175587.0,
+        "OpeningPrice": 215.0,
+        "HighestPrice": 237.0,
+        "LowestPrice": 212.5,
+        "ClosingPrice": 237.0,
+        "Change": 21.5,
+        "Transaction": 12032.0,
+        "ChangePercent": 9.98,
+        "MarketValue": 3599591076.0
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 11.395348837209303,
+        "price_momentum": 9.98,
+        "volume_intensity": 3599591076.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 99.86,
+        "momentum_score": 9.99,
+        "risk_level": "中風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 291570.44439827127,
+          "avg_trade_volume": 1262.3128324468084,
+          "total_transactions": 12032.0,
+          "trade_intensity": 15.188148
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1262.3128324468084,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 99.96000000000001,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 79.13,
+        "technical_score": 73.28,
+        "chip_score": 89.98,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "8454",
+        "Name": "富邦媒",
+        "TradeVolume": 4338756.0,
+        "TradeValue": 1465445111.0,
+        "OpeningPrice": 333.0,
+        "HighestPrice": 353.0,
+        "LowestPrice": 294.5,
+        "ClosingPrice": 353.0,
+        "Change": 32.0,
+        "Transaction": 8818.0,
+        "ChangePercent": 9.97,
+        "MarketValue": 1531580868.0
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 17.56756756756757,
+        "price_momentum": 9.97,
+        "volume_intensity": 1531580868.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 82.806268,
+        "momentum_score": 8.8527512,
+        "risk_level": "中風險",
+        "liquidity_score": 71.69378
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 166187.92367883874,
+          "avg_trade_volume": 492.0340213200272,
+          "total_transactions": 8818.0,
+          "trade_intensity": 4.338756
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "高度分散",
+          "avg_trade_size": 492.0340213200272,
+          "large_trade_ratio": 0.2
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 94.650048,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 67.35,
+        "technical_score": 61.84,
+        "chip_score": 77.59,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "波動性過大"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "6862",
+        "Name": "三集瑞-KY",
+        "TradeVolume": 1572063.0,
+        "TradeValue": 308529825.0,
+        "OpeningPrice": 187.0,
+        "HighestPrice": 204.5,
+        "LowestPrice": 182.0,
+        "ClosingPrice": 204.5,
+        "Change": 18.5,
+        "Transaction": 1611.0,
+        "ChangePercent": 9.95,
+        "MarketValue": 321486883.5
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 12.032085561497325,
+        "price_momentum": 9.95,
+        "volume_intensity": 321486883.5,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 74.36618899999999,
+        "momentum_score": 8.2894126,
+        "risk_level": "中風險",
+        "liquidity_score": 23.970315
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 191514.47858472998,
+          "avg_trade_volume": 975.830540037244,
+          "total_transactions": 1611.0,
+          "trade_intensity": 1.572063
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "正常交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "高度分散",
+          "avg_trade_size": 975.830540037244,
+          "large_trade_ratio": 0.2
+        },
+        "market_participation": {
+          "activity_level": "中度活躍",
+          "participation_score": 53.956504,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 40.65,
+        "technical_score": 47.04,
+        "chip_score": 49.28,
+        "rating": "C",
+        "recommendation": "不推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "流動性不足"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "6409",
+        "Name": "旭隼",
+        "TradeVolume": 2102654.0,
+        "TradeValue": 1929464912.0,
+        "OpeningPrice": 882.0,
+        "HighestPrice": 928.0,
+        "LowestPrice": 875.0,
+        "ClosingPrice": 928.0,
+        "Change": 84.0,
+        "Transaction": 3972.0,
+        "ChangePercent": 9.95,
+        "MarketValue": 1951262912.0
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 6.00907029478458,
+        "price_momentum": 9.95,
+        "volume_intensity": 1951262912.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 75.957962,
+        "momentum_score": 8.3955308,
+        "risk_level": "中風險",
+        "liquidity_score": 50.23327
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 485766.5941591138,
+          "avg_trade_volume": 529.3690835850957,
+          "total_transactions": 3972.0,
+          "trade_intensity": 2.102654
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "正常交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "高度分散",
+          "avg_trade_size": 529.3690835850957,
+          "large_trade_ratio": 0.2
+        },
+        "market_participation": {
+          "activity_level": "高度活躍",
+          "participation_score": 76.72123199999999,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 56.97,
+        "technical_score": 50.2,
+        "chip_score": 69.52,
+        "rating": "B",
+        "recommendation": "中性",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2241",
+        "Name": "艾姆勒",
+        "TradeVolume": 3727155.0,
+        "TradeValue": 128343040.0,
+        "OpeningPrice": 32.5,
+        "HighestPrice": 35.4,
+        "LowestPrice": 31.85,
+        "ClosingPrice": 35.4,
+        "Change": 3.2,
+        "Transaction": 1743.0,
+        "ChangePercent": 9.94,
+        "MarketValue": 131941287.0
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 10.923076923076914,
+        "price_momentum": 9.94,
+        "volume_intensity": 131941287.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 80.761465,
+        "momentum_score": 8.715430999999999,
+        "risk_level": "中風險",
+        "liquidity_score": 36.065775
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 73633.41365461847,
+          "avg_trade_volume": 2138.356282271945,
+          "total_transactions": 1743.0,
+          "trade_intensity": 3.727155
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "正常交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 2138.356282271945,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "高度活躍",
+          "participation_score": 72.93723999999999,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 56.51,
+        "technical_score": 50.41,
+        "chip_score": 67.82,
+        "rating": "B",
+        "recommendation": "中性",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "6885",
+        "Name": "全福生技",
+        "TradeVolume": 1453518.0,
+        "TradeValue": 37544246.0,
+        "OpeningPrice": 24.4,
+        "HighestPrice": 26.55,
+        "LowestPrice": 23.8,
+        "ClosingPrice": 26.55,
+        "Change": 2.4,
+        "Transaction": 866.0,
+        "ChangePercent": 9.94,
+        "MarketValue": 38590902.9
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 11.270491803278688,
+        "price_momentum": 9.94,
+        "volume_intensity": 38590902.9,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 73.94055399999999,
+        "momentum_score": 8.2607036,
+        "risk_level": "中風險",
+        "liquidity_score": 15.92759
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 43353.63279445728,
+          "avg_trade_volume": 1678.4272517321017,
+          "total_transactions": 866.0,
+          "trade_intensity": 1.453518
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "清淡交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1678.4272517321017,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "中度活躍",
+          "participation_score": 43.05481066666667,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 41.64,
+        "technical_score": 46.09,
+        "chip_score": 54.37,
+        "rating": "C",
+        "recommendation": "不推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "流動性不足",
+          "交易清淡"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2483",
+        "Name": "百容",
+        "TradeVolume": 10502940.0,
+        "TradeValue": 307530262.0,
+        "OpeningPrice": 27.35,
+        "HighestPrice": 30.45,
+        "LowestPrice": 25.8,
+        "ClosingPrice": 30.45,
+        "Change": 2.75,
+        "Transaction": 4557.0,
+        "ChangePercent": 9.93,
+        "MarketValue": 319814523.0
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 17.001828153564894,
+        "price_momentum": 9.93,
+        "volume_intensity": 319814523.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 99.50999999999999,
+        "momentum_score": 9.965,
+        "risk_level": "中風險",
+        "liquidity_score": 95.57
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 67485.2451174018,
+          "avg_trade_volume": 2304.7926267281105,
+          "total_transactions": 4557.0,
+          "trade_intensity": 10.50294
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "正常交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 2304.7926267281105,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 99.86,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 78.46,
+        "technical_score": 72.27,
+        "chip_score": 89.94,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "波動性過大"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "3015",
+        "Name": "全漢",
+        "TradeVolume": 23541119.0,
+        "TradeValue": 1586781856.0,
+        "OpeningPrice": 65.0,
+        "HighestPrice": 68.9,
+        "LowestPrice": 64.2,
+        "ClosingPrice": 68.9,
+        "Change": 6.2,
+        "Transaction": 16029.0,
+        "ChangePercent": 9.89,
+        "MarketValue": 1621983099.1000001
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 7.230769230769235,
+        "price_momentum": 9.89,
+        "volume_intensity": 1621983099.1000001,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 99.22999999999999,
+        "momentum_score": 9.945,
+        "risk_level": "中風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 98994.43858007362,
+          "avg_trade_volume": 1468.6579948842723,
+          "total_transactions": 16029.0,
+          "trade_intensity": 23.541119
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1468.6579948842723,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 99.78,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 78.96,
+        "technical_score": 73.06,
+        "chip_score": 89.9,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "7722",
+        "Name": "LINEPAY",
+        "TradeVolume": 231162.0,
+        "TradeValue": 69556764.0,
+        "OpeningPrice": 281.5,
+        "HighestPrice": 305.5,
+        "LowestPrice": 279.5,
+        "ClosingPrice": 305.5,
+        "Change": 27.5,
+        "Transaction": 580.0,
+        "ChangePercent": 9.89,
+        "MarketValue": 70619991.0
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 9.236234458259325,
+        "price_momentum": 9.89,
+        "volume_intensity": 70619991.0,
+        "volume_price_trend": "價漲量縮",
+        "relative_strength": 69.923486,
+        "momentum_score": 7.9912324,
+        "risk_level": "中風險",
+        "liquidity_score": 6.9558100000000005
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 119925.4551724138,
+          "avg_trade_volume": 398.5551724137931,
+          "total_transactions": 580.0,
+          "trade_intensity": 0.231162
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "清淡交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "高度分散",
+          "avg_trade_size": 398.5551724137931,
+          "large_trade_ratio": 0.2
+        },
+        "market_participation": {
+          "activity_level": "低度活躍",
+          "participation_score": 29.362629333333334,
+          "market_interest": "關注度低"
+        }
+      },
+      "rating": {
+        "total_score": 34.2,
+        "technical_score": 41.33,
+        "chip_score": 38.21,
+        "rating": "D",
+        "recommendation": "避免",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "收盤接近高點"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "流動性不足",
+          "交易清淡"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "4190",
+        "Name": "佐登-KY",
+        "TradeVolume": 299405.0,
+        "TradeValue": 7901828.0,
+        "OpeningPrice": 25.2,
+        "HighestPrice": 27.25,
+        "LowestPrice": 25.0,
+        "ClosingPrice": 27.25,
+        "Change": 2.45,
+        "Transaction": 270.0,
+        "ChangePercent": 9.88,
+        "MarketValue": 8158786.25
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 8.928571428571429,
+        "price_momentum": 9.88,
+        "volume_intensity": 8158786.25,
+        "volume_price_trend": "價漲量縮",
+        "relative_strength": 70.058215,
+        "momentum_score": 7.999881,
+        "risk_level": "中風險",
+        "liquidity_score": 4.197025
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 29266.02962962963,
+          "avg_trade_volume": 1108.9074074074074,
+          "total_transactions": 270.0,
+          "trade_intensity": 0.299405
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "清淡交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1108.9074074074074,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "低度活躍",
+          "participation_score": 25.75524,
+          "market_interest": "關注度低"
+        }
+      },
+      "rating": {
+        "total_score": 36.57,
+        "technical_score": 41.1,
+        "chip_score": 46.59,
+        "rating": "C",
+        "recommendation": "不推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "收盤接近高點"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "流動性不足",
+          "交易清淡"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2528",
+        "Name": "皇普",
+        "TradeVolume": 2961027.0,
+        "TradeValue": 68263890.0,
+        "OpeningPrice": 21.5,
+        "HighestPrice": 23.35,
+        "LowestPrice": 21.3,
+        "ClosingPrice": 23.35,
+        "Change": 2.1,
+        "Transaction": 2259.0,
+        "ChangePercent": 9.88,
+        "MarketValue": 69139980.45
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 9.534883720930235,
+        "price_momentum": 9.88,
+        "volume_intensity": 69139980.45,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 78.043081,
+        "momentum_score": 8.5322054,
+        "risk_level": "中風險",
+        "liquidity_score": 37.395134999999996
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 30218.63213811421,
+          "avg_trade_volume": 1310.768924302789,
+          "total_transactions": 2259.0,
+          "trade_intensity": 2.961027
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "正常交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1310.768924302789,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "高度活躍",
+          "participation_score": 73.568216,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 59.59,
+        "technical_score": 49.62,
+        "chip_score": 78.11,
+        "rating": "B",
+        "recommendation": "中性",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2461",
+        "Name": "光群雷",
+        "TradeVolume": 9408753.0,
+        "TradeValue": 182296054.0,
+        "OpeningPrice": 18.0,
+        "HighestPrice": 19.5,
+        "LowestPrice": 18.0,
+        "ClosingPrice": 19.5,
+        "Change": 1.75,
+        "Transaction": 2763.0,
+        "ChangePercent": 9.86,
+        "MarketValue": 183470683.5
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 8.333333333333332,
+        "price_momentum": 9.86,
+        "volume_intensity": 183470683.5,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 97.246259,
+        "momentum_score": 9.8117506,
+        "risk_level": "中風險",
+        "liquidity_score": 74.673765
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 65977.5801664857,
+          "avg_trade_volume": 3405.267100977199,
+          "total_transactions": 2763.0,
+          "trade_intensity": 9.408753
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "正常交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 3405.267100977199,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 96.56,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 74.72,
+        "technical_score": 67.33,
+        "chip_score": 88.45,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2025",
+        "Name": "千興",
+        "TradeVolume": 2025762.0,
+        "TradeValue": 26464016.0,
+        "OpeningPrice": 12.35,
+        "HighestPrice": 13.4,
+        "LowestPrice": 12.3,
+        "ClosingPrice": 13.4,
+        "Change": 1.2,
+        "Transaction": 1276.0,
+        "ChangePercent": 9.84,
+        "MarketValue": 27145210.8
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 8.906882591093115,
+        "price_momentum": 9.84,
+        "volume_intensity": 27145210.8,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 74.957286,
+        "momentum_score": 8.3251524,
+        "risk_level": "中風險",
+        "liquidity_score": 22.88881
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 20739.82445141066,
+          "avg_trade_volume": 1587.587774294671,
+          "total_transactions": 1276.0,
+          "trade_intensity": 2.025762
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "正常交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1587.587774294671,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "中度活躍",
+          "participation_score": 52.89942933333334,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 51.21,
+        "technical_score": 47.13,
+        "chip_score": 58.8,
+        "rating": "C+",
+        "recommendation": "中性偏空",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "流動性不足"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "3018",
+        "Name": "隆銘綠能",
+        "TradeVolume": 140193.0,
+        "TradeValue": 1639001.0,
+        "OpeningPrice": 10.7,
+        "HighestPrice": 11.75,
+        "LowestPrice": 10.7,
+        "ClosingPrice": 11.75,
+        "Change": 1.05,
+        "Transaction": 145.0,
+        "ChangePercent": 9.81,
+        "MarketValue": 1647267.75
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 9.81308411214954,
+        "price_momentum": 9.81,
+        "volume_intensity": 1647267.75,
+        "volume_price_trend": "價漲量縮",
+        "relative_strength": 69.09057899999999,
+        "momentum_score": 7.933038600000001,
+        "risk_level": "中風險",
+        "liquidity_score": 2.1509650000000002
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 11303.455172413793,
+          "avg_trade_volume": 966.8482758620689,
+          "total_transactions": 145.0,
+          "trade_intensity": 0.140193
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "清淡交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "高度分散",
+          "avg_trade_size": 966.8482758620689,
+          "large_trade_ratio": 0.2
+        },
+        "market_participation": {
+          "activity_level": "低度活躍",
+          "participation_score": 22.674877333333335,
+          "market_interest": "關注度低"
+        }
+      },
+      "rating": {
+        "total_score": 32.88,
+        "technical_score": 40.56,
+        "chip_score": 35.2,
+        "rating": "D",
+        "recommendation": "避免",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "收盤接近高點"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "流動性不足",
+          "交易清淡"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "7788",
+        "Name": "松川精密",
+        "TradeVolume": 4318068.0,
+        "TradeValue": 942901189.0,
+        "OpeningPrice": 200.0,
+        "HighestPrice": 224.0,
+        "LowestPrice": 200.0,
+        "ClosingPrice": 224.0,
+        "Change": 20.0,
+        "Transaction": 4255.0,
+        "ChangePercent": 9.8,
+        "MarketValue": 967247232.0
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 12.0,
+        "price_momentum": 9.8,
+        "volume_intensity": 967247232.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 81.55420400000001,
+        "momentum_score": 8.763613600000001,
+        "risk_level": "中風險",
+        "liquidity_score": 64.14034
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 221598.39929494713,
+          "avg_trade_volume": 1014.8220916568742,
+          "total_transactions": 4255.0,
+          "trade_intensity": 4.318068
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "正常交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1014.8220916568742,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 94.144544,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 69.51,
+        "technical_score": 59.9,
+        "chip_score": 87.37,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "6645",
+        "Name": "金萬林-創",
+        "TradeVolume": 217683.0,
+        "TradeValue": 2779167.0,
+        "OpeningPrice": 11.85,
+        "HighestPrice": 12.95,
+        "LowestPrice": 11.85,
+        "ClosingPrice": 12.95,
+        "Change": 1.15,
+        "Transaction": 190.0,
+        "ChangePercent": 9.75,
+        "MarketValue": 2818994.8499999996
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 9.282700421940927,
+        "price_momentum": 9.75,
+        "volume_intensity": 2818994.8499999996,
+        "volume_price_trend": "價漲量縮",
+        "relative_strength": 68.903049,
+        "momentum_score": 7.9185366,
+        "risk_level": "中風險",
+        "liquidity_score": 2.988415
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 14627.194736842106,
+          "avg_trade_volume": 1145.7,
+          "total_transactions": 190.0,
+          "trade_intensity": 0.217683
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "清淡交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1145.7,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "低度活躍",
+          "participation_score": 23.774797333333332,
+          "market_interest": "關注度低"
+        }
+      },
+      "rating": {
+        "total_score": 36.02,
+        "technical_score": 40.58,
+        "chip_score": 45.7,
+        "rating": "C",
+        "recommendation": "不推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "收盤接近高點"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "流動性不足",
+          "交易清淡"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "7799",
+        "Name": "禾榮科",
+        "TradeVolume": 1992948.0,
+        "TradeValue": 752209533.0,
+        "OpeningPrice": 364.0,
+        "HighestPrice": 391.0,
+        "LowestPrice": 358.0,
+        "ClosingPrice": 390.0,
+        "Change": 34.5,
+        "Transaction": 4416.0,
+        "ChangePercent": 9.7,
+        "MarketValue": 777249720.0
+      },
+      "technical_indicators": {
+        "price_position": 0.9696969696969697,
+        "volatility": 9.065934065934066,
+        "price_momentum": 9.7,
+        "volume_intensity": 777249720.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 73.878844,
+        "momentum_score": 8.157680509090909,
+        "risk_level": "中風險",
+        "liquidity_score": 54.124739999999996
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 170337.30366847827,
+          "avg_trade_volume": 451.3016304347826,
+          "total_transactions": 4416.0,
+          "trade_intensity": 1.992948
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "正常交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "高度分散",
+          "avg_trade_size": 451.3016304347826,
+          "large_trade_ratio": 0.2
+        },
+        "market_participation": {
+          "activity_level": "高度活躍",
+          "participation_score": 75.34358399999999,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 47.82,
+        "technical_score": 49.45,
+        "chip_score": 68.9,
+        "rating": "C+",
+        "recommendation": "中性偏空",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "1906",
+        "Name": "寶隆",
+        "TradeVolume": 1001720.0,
+        "TradeValue": 12571556.0,
+        "OpeningPrice": 12.55,
+        "HighestPrice": 12.55,
+        "LowestPrice": 12.55,
+        "ClosingPrice": 12.55,
+        "Change": 1.1,
+        "Transaction": 345.0,
+        "ChangePercent": 9.61,
+        "MarketValue": 12571586.0
+      },
+      "technical_indicators": {
+        "price_position": 0.5,
+        "volatility": 0.0,
+        "price_momentum": 9.61,
+        "volume_intensity": 12571586.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 70.27515999999999,
+        "momentum_score": 6.505344,
+        "risk_level": "中風險",
+        "liquidity_score": 8.4586
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 36439.29275362319,
+          "avg_trade_volume": 2903.536231884058,
+          "total_transactions": 345.0,
+          "trade_intensity": 1.00172
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "清淡交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 2903.536231884058,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "低度活躍",
+          "participation_score": 31.833759999999998,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 35.16,
+        "technical_score": 37.09,
+        "chip_score": 49.33,
+        "rating": "C",
+        "recommendation": "不推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "量價配合良好"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "流動性不足",
+          "交易清淡"
+        ]
+      }
+    }
+  ],
+  "strong_stocks_analysis": [
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2303",
+        "Name": "聯電",
+        "TradeVolume": 377903061.0,
+        "TradeValue": 49094389941.0,
+        "OpeningPrice": 127.0,
+        "HighestPrice": 133.0,
+        "LowestPrice": 125.0,
+        "ClosingPrice": 131.5,
+        "Change": 6.5,
+        "Transaction": 165571.0,
+        "ChangePercent": 5.2,
+        "MarketValue": 49694252521.5,
+        "Score": 154.2812244
+      },
+      "technical_indicators": {
+        "price_position": 0.8125,
+        "volatility": 6.299212598425196,
+        "price_momentum": 5.2,
+        "volume_intensity": 49694252521.5,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 66.39999999999999,
+        "momentum_score": 7.0375,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 296515.63342010375,
+          "avg_trade_volume": 2282.4230148999522,
+          "total_transactions": 165571.0,
+          "trade_intensity": 377.903061
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 2282.4230148999522,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 90.4,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 78.67,
+        "technical_score": 59.11,
+        "chip_score": 85.68,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2481",
+        "Name": "強茂",
+        "TradeVolume": 74311377.0,
+        "TradeValue": 12309816619.0,
+        "OpeningPrice": 159.5,
+        "HighestPrice": 172.0,
+        "LowestPrice": 158.5,
+        "ClosingPrice": 165.0,
+        "Change": 5.5,
+        "Transaction": 51275.0,
+        "ChangePercent": 3.45,
+        "MarketValue": 12261377205.0,
+        "Score": 31.7945508
+      },
+      "technical_indicators": {
+        "price_position": 0.48148148148148145,
+        "volatility": 8.463949843260188,
+        "price_momentum": 3.45,
+        "volume_intensity": 12261377205.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 54.15,
+        "momentum_score": 5.169444444444444,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 240074.43430521697,
+          "avg_trade_volume": 1449.2711262798634,
+          "total_transactions": 51275.0,
+          "trade_intensity": 74.311377
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1449.2711262798634,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 86.9,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 67.38,
+        "technical_score": 50.24,
+        "chip_score": 74.11,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "流動性佳",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2882",
+        "Name": "國泰金",
+        "TradeVolume": 69269147.0,
+        "TradeValue": 6807675953.0,
+        "OpeningPrice": 94.4,
+        "HighestPrice": 100.0,
+        "LowestPrice": 93.7,
+        "ClosingPrice": 100.0,
+        "Change": 5.6,
+        "Transaction": 29506.0,
+        "ChangePercent": 5.93,
+        "MarketValue": 6926914700.0,
+        "Score": 31.265658800000004
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 6.673728813559318,
+        "price_momentum": 5.93,
+        "volume_intensity": 6926914700.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 71.50999999999999,
+        "momentum_score": 7.965,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 230721.74991527147,
+          "avg_trade_volume": 2347.6291940622245,
+          "total_transactions": 29506.0,
+          "trade_intensity": 69.269147
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 2347.6291940622245,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 91.86,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 82.21,
+        "technical_score": 63.49,
+        "chip_score": 86.34,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2881",
+        "Name": "富邦金",
+        "TradeVolume": 61781441.0,
+        "TradeValue": 7216915341.0,
+        "OpeningPrice": 114.0,
+        "HighestPrice": 119.0,
+        "LowestPrice": 112.0,
+        "ClosingPrice": 118.0,
+        "Change": 4.0,
+        "Transaction": 21717.0,
+        "ChangePercent": 3.51,
+        "MarketValue": 7290210038.0,
+        "Score": 26.818576400000005
+      },
+      "technical_indicators": {
+        "price_position": 0.8571428571428571,
+        "volatility": 6.140350877192982,
+        "price_momentum": 3.51,
+        "volume_intensity": 7290210038.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 54.56999999999999,
+        "momentum_score": 6.326428571428571,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 332316.4037850532,
+          "avg_trade_volume": 2844.8423354975366,
+          "total_transactions": 21717.0,
+          "trade_intensity": 61.781441
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 2844.8423354975366,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 87.02,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 71.45,
+        "technical_score": 55.65,
+        "chip_score": 74.16,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2855",
+        "Name": "統一證",
+        "TradeVolume": 40683708.0,
+        "TradeValue": 2362922715.0,
+        "OpeningPrice": 58.1,
+        "HighestPrice": 59.8,
+        "LowestPrice": 55.2,
+        "ClosingPrice": 59.1,
+        "Change": 3.6,
+        "Transaction": 18999.0,
+        "ChangePercent": 6.49,
+        "MarketValue": 2404407142.8,
+        "Score": 20.1674832
+      },
+      "technical_indicators": {
+        "price_position": 0.8478260869565225,
+        "volatility": 7.917383820998269,
+        "price_momentum": 6.49,
+        "volume_intensity": 2404407142.8,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 75.42999999999999,
+        "momentum_score": 7.788478260869567,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 124370.89925785568,
+          "avg_trade_volume": 2141.360492657508,
+          "total_transactions": 18999.0,
+          "trade_intensity": 40.683708
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 2141.360492657508,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 92.98,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 81.84,
+        "technical_score": 62.72,
+        "chip_score": 86.84,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "1708",
+        "Name": "東鹼",
+        "TradeVolume": 42986218.0,
+        "TradeValue": 2082770991.0,
+        "OpeningPrice": 47.0,
+        "HighestPrice": 49.95,
+        "LowestPrice": 46.6,
+        "ClosingPrice": 49.1,
+        "Change": 1.45,
+        "Transaction": 24147.0,
+        "ChangePercent": 3.04,
+        "MarketValue": 2110623303.8,
+        "Score": 19.018487200000003
+      },
+      "technical_indicators": {
+        "price_position": 0.7462686567164176,
+        "volatility": 7.127659574468089,
+        "price_momentum": 3.04,
+        "volume_intensity": 2110623303.8,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 51.279999999999994,
+        "momentum_score": 5.758805970149253,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 86253.81997763697,
+          "avg_trade_volume": 1780.1887605085517,
+          "total_transactions": 24147.0,
+          "trade_intensity": 42.986218
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "活躍交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1780.1887605085517,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 86.08,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 69.27,
+        "technical_score": 52.96,
+        "chip_score": 73.74,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "流動性佳",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "6005",
+        "Name": "群益證",
+        "TradeVolume": 35591924.0,
+        "TradeValue": 1567344211.0,
+        "OpeningPrice": 42.1,
+        "HighestPrice": 45.55,
+        "LowestPrice": 41.8,
+        "ClosingPrice": 45.05,
+        "Change": 2.6,
+        "Transaction": 17027.0,
+        "ChangePercent": 6.12,
+        "MarketValue": 1603416176.1999998,
+        "Score": 17.9087696
+      },
+      "technical_indicators": {
+        "price_position": 0.8666666666666667,
+        "volatility": 8.907363420427552,
+        "price_momentum": 6.12,
+        "volume_intensity": 1603416176.1999998,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 72.83999999999999,
+        "momentum_score": 7.66,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 92050.52040876256,
+          "avg_trade_volume": 2090.3226640042285,
+          "total_transactions": 17027.0,
+          "trade_intensity": 35.591924
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 2090.3226640042285,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 92.24,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 81.23,
+        "technical_score": 62.09,
+        "chip_score": 86.51,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "6209",
+        "Name": "今國光",
+        "TradeVolume": 38454348.0,
+        "TradeValue": 3323156408.0,
+        "OpeningPrice": 85.0,
+        "HighestPrice": 89.0,
+        "LowestPrice": 82.2,
+        "ClosingPrice": 87.9,
+        "Change": 3.2,
+        "Transaction": 27522.0,
+        "ChangePercent": 3.78,
+        "MarketValue": 3380137189.2000003,
+        "Score": 17.649739200000003
+      },
+      "technical_indicators": {
+        "price_position": 0.8382352941176479,
+        "volatility": 7.9999999999999964,
+        "price_momentum": 3.78,
+        "volume_intensity": 3380137189.2000003,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 56.46,
+        "momentum_score": 6.4047058823529435,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 120745.45483613109,
+          "avg_trade_volume": 1397.2221495530848,
+          "total_transactions": 27522.0,
+          "trade_intensity": 38.454348
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1397.2221495530848,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 87.56,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 71.83,
+        "technical_score": 56.03,
+        "chip_score": 74.4,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "1810",
+        "Name": "和成",
+        "TradeVolume": 23846581.0,
+        "TradeValue": 536312179.0,
+        "OpeningPrice": 22.1,
+        "HighestPrice": 22.6,
+        "LowestPrice": 21.85,
+        "ClosingPrice": 22.6,
+        "Change": 2.05,
+        "Transaction": 7381.0,
+        "ChangePercent": 9.98,
+        "MarketValue": 538932730.6,
+        "Score": 15.5266324
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 3.3936651583710407,
+        "price_momentum": 9.98,
+        "volume_intensity": 538932730.6,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 99.86,
+        "momentum_score": 9.99,
+        "risk_level": "中風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 72661.18127624983,
+          "avg_trade_volume": 3230.806259314456,
+          "total_transactions": 7381.0,
+          "trade_intensity": 23.846581
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 3230.806259314456,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 99.96000000000001,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 79.13,
+        "technical_score": 73.28,
+        "chip_score": 89.98,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "3015",
+        "Name": "全漢",
+        "TradeVolume": 23541119.0,
+        "TradeValue": 1586781856.0,
+        "OpeningPrice": 65.0,
+        "HighestPrice": 68.9,
+        "LowestPrice": 64.2,
+        "ClosingPrice": 68.9,
+        "Change": 6.2,
+        "Transaction": 16029.0,
+        "ChangePercent": 9.89,
+        "MarketValue": 1621983099.1000001,
+        "Score": 15.350447599999999
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 7.230769230769235,
+        "price_momentum": 9.89,
+        "volume_intensity": 1621983099.1000001,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 99.22999999999999,
+        "momentum_score": 9.945,
+        "risk_level": "中風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 98994.43858007362,
+          "avg_trade_volume": 1468.6579948842723,
+          "total_transactions": 16029.0,
+          "trade_intensity": 23.541119
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1468.6579948842723,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 99.78,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 78.96,
+        "technical_score": 73.06,
+        "chip_score": 89.9,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "3033",
+        "Name": "威健",
+        "TradeVolume": 31939950.0,
+        "TradeValue": 1643777558.0,
+        "OpeningPrice": 52.0,
+        "HighestPrice": 54.0,
+        "LowestPrice": 49.85,
+        "ClosingPrice": 51.8,
+        "Change": 1.8,
+        "Transaction": 17495.0,
+        "ChangePercent": 3.6,
+        "MarketValue": 1654489410.0,
+        "Score": 14.93598
+      },
+      "technical_indicators": {
+        "price_position": 0.4698795180722883,
+        "volatility": 7.980769230769227,
+        "price_momentum": 3.6,
+        "volume_intensity": 1654489410.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 55.2,
+        "momentum_score": 5.209638554216864,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 93956.99102600742,
+          "avg_trade_volume": 1825.66161760503,
+          "total_transactions": 17495.0,
+          "trade_intensity": 31.93995
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "活躍交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1825.66161760503,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 87.2,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 67.59,
+        "technical_score": 50.44,
+        "chip_score": 74.24,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "流動性佳",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2327",
+        "Name": "國巨*",
+        "TradeVolume": 29037062.0,
+        "TradeValue": 21174694565.0,
+        "OpeningPrice": 708.0,
+        "HighestPrice": 778.0,
+        "LowestPrice": 670.0,
+        "ClosingPrice": 769.0,
+        "Change": 26.0,
+        "Transaction": 60281.0,
+        "ChangePercent": 3.5,
+        "MarketValue": 22329500678.0,
+        "Score": 13.7148248
+      },
+      "technical_indicators": {
+        "price_position": 0.9166666666666666,
+        "volatility": 15.254237288135593,
+        "price_momentum": 3.5,
+        "volume_intensity": 22329500678.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 54.49999999999999,
+        "momentum_score": 6.5,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 351266.47807766957,
+          "avg_trade_volume": 481.6950946401022,
+          "total_transactions": 60281.0,
+          "trade_intensity": 29.037062
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "高度分散",
+          "avg_trade_size": 481.6950946401022,
+          "large_trade_ratio": 0.2
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 87.0,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 68.02,
+        "technical_score": 56.46,
+        "chip_score": 64.15,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "波動性過大"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "6155",
+        "Name": "鈞寶",
+        "TradeVolume": 16373795.0,
+        "TradeValue": 1242439141.0,
+        "OpeningPrice": 70.7,
+        "HighestPrice": 79.3,
+        "LowestPrice": 69.0,
+        "ClosingPrice": 79.3,
+        "Change": 7.2,
+        "Transaction": 10526.0,
+        "ChangePercent": 9.99,
+        "MarketValue": 1298441943.5,
+        "Score": 12.543518
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 14.568599717114564,
+        "price_momentum": 9.99,
+        "volume_intensity": 1298441943.5,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 99.92999999999998,
+        "momentum_score": 9.995000000000001,
+        "risk_level": "中風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 118035.25945278359,
+          "avg_trade_volume": 1555.5571917157515,
+          "total_transactions": 10526.0,
+          "trade_intensity": 16.373795
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1555.5571917157515,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 99.98,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 79.15,
+        "technical_score": 73.31,
+        "chip_score": 89.99,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "3376",
+        "Name": "新日興",
+        "TradeVolume": 15188148.0,
+        "TradeValue": 3508175587.0,
+        "OpeningPrice": 215.0,
+        "HighestPrice": 237.0,
+        "LowestPrice": 212.5,
+        "ClosingPrice": 237.0,
+        "Change": 21.5,
+        "Transaction": 12032.0,
+        "ChangePercent": 9.98,
+        "MarketValue": 3599591076.0,
+        "Score": 12.063259200000001
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 11.395348837209303,
+        "price_momentum": 9.98,
+        "volume_intensity": 3599591076.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 99.86,
+        "momentum_score": 9.99,
+        "risk_level": "中風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 291570.44439827127,
+          "avg_trade_volume": 1262.3128324468084,
+          "total_transactions": 12032.0,
+          "trade_intensity": 15.188148
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1262.3128324468084,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 99.96000000000001,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 79.13,
+        "technical_score": 73.28,
+        "chip_score": 89.98,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2483",
+        "Name": "百容",
+        "TradeVolume": 10502940.0,
+        "TradeValue": 307530262.0,
+        "OpeningPrice": 27.35,
+        "HighestPrice": 30.45,
+        "LowestPrice": 25.8,
+        "ClosingPrice": 30.45,
+        "Change": 2.75,
+        "Transaction": 4557.0,
+        "ChangePercent": 9.93,
+        "MarketValue": 319814523.0,
+        "Score": 10.159175999999999
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 17.001828153564894,
+        "price_momentum": 9.93,
+        "volume_intensity": 319814523.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 99.50999999999999,
+        "momentum_score": 9.965,
+        "risk_level": "中風險",
+        "liquidity_score": 95.57
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 67485.2451174018,
+          "avg_trade_volume": 2304.7926267281105,
+          "total_transactions": 4557.0,
+          "trade_intensity": 10.50294
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "正常交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 2304.7926267281105,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 99.86,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 78.46,
+        "technical_score": 72.27,
+        "chip_score": 89.94,
+        "rating": "A",
+        "recommendation": "推薦",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "波動性過大"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2461",
+        "Name": "光群雷",
+        "TradeVolume": 9408753.0,
+        "TradeValue": 182296054.0,
+        "OpeningPrice": 18.0,
+        "HighestPrice": 19.5,
+        "LowestPrice": 18.0,
+        "ClosingPrice": 19.5,
+        "Change": 1.75,
+        "Transaction": 2763.0,
+        "ChangePercent": 9.86,
+        "MarketValue": 183470683.5,
+        "Score": 9.6795012
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 8.333333333333332,
+        "price_momentum": 9.86,
+        "volume_intensity": 183470683.5,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 97.246259,
+        "momentum_score": 9.8117506,
+        "risk_level": "中風險",
+        "liquidity_score": 74.673765
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 65977.5801664857,
+          "avg_trade_volume": 3405.267100977199,
+          "total_transactions": 2763.0,
+          "trade_intensity": 9.408753
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "正常交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 3405.267100977199,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 96.56,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 74.72,
+        "technical_score": 67.33,
+        "chip_score": 88.45,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險"
+        ]
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2484",
+        "Name": "希華",
+        "TradeVolume": 17729773.0,
+        "TradeValue": 891124579.0,
+        "OpeningPrice": 50.2,
+        "HighestPrice": 53.0,
+        "LowestPrice": 47.0,
+        "ClosingPrice": 52.8,
+        "Change": 2.0,
+        "Transaction": 11282.0,
+        "ChangePercent": 3.94,
+        "MarketValue": 936132014.4,
+        "Score": 9.4559092
+      },
+      "technical_indicators": {
+        "price_position": 0.9666666666666662,
+        "volatility": 11.95219123505976,
+        "price_momentum": 3.94,
+        "volume_intensity": 936132014.4,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 57.58,
+        "momentum_score": 6.869999999999998,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 78986.40125864209,
+          "avg_trade_volume": 1571.5097500443185,
+          "total_transactions": 11282.0,
+          "trade_intensity": 17.729773
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "活躍交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1571.5097500443185,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 87.88,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 73.52,
+        "technical_score": 58.22,
+        "chip_score": 74.55,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2637",
+        "Name": "慧洋-KY",
+        "TradeVolume": 15502381.0,
+        "TradeValue": 1270219639.0,
+        "OpeningPrice": 78.2,
+        "HighestPrice": 84.0,
+        "LowestPrice": 78.2,
+        "ClosingPrice": 80.6,
+        "Change": 2.5,
+        "Transaction": 8189.0,
+        "ChangePercent": 3.2,
+        "MarketValue": 1249491908.6,
+        "Score": 8.1209524
+      },
+      "technical_indicators": {
+        "price_position": 0.4137931034482746,
+        "volatility": 7.416879795396415,
+        "price_momentum": 3.2,
+        "volume_intensity": 1249491908.6,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 52.400000000000006,
+        "momentum_score": 4.8413793103448235,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 155112.91232140677,
+          "avg_trade_volume": 1893.0737574795457,
+          "total_transactions": 8189.0,
+          "trade_intensity": 15.502381
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 1893.0737574795457,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 86.4,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 66.13,
+        "technical_score": 48.69,
+        "chip_score": 73.88,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "流動性佳",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "2108",
+        "Name": "南帝",
+        "TradeVolume": 13801843.0,
+        "TradeValue": 438595320.0,
+        "OpeningPrice": 32.2,
+        "HighestPrice": 32.7,
+        "LowestPrice": 30.85,
+        "ClosingPrice": 32.15,
+        "Change": 1.25,
+        "Transaction": 6506.0,
+        "ChangePercent": 4.05,
+        "MarketValue": 443729252.45,
+        "Score": 7.9507372
+      },
+      "technical_indicators": {
+        "price_position": 0.7027027027027006,
+        "volatility": 5.745341614906836,
+        "price_momentum": 4.05,
+        "volume_intensity": 443729252.45,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 58.349999999999994,
+        "momentum_score": 6.133108108108102,
+        "risk_level": "低風險",
+        "liquidity_score": 100.0
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 67413.97479249923,
+          "avg_trade_volume": 2121.4022440823856,
+          "total_transactions": 6506.0,
+          "trade_intensity": 13.801843
+        },
+        "investor_behavior": {
+          "investor_type": "散戶為主",
+          "trading_pattern": "活躍交易",
+          "sentiment": "謹慎樂觀"
+        },
+        "chip_concentration": {
+          "concentration_level": "分散持有",
+          "avg_trade_size": 2121.4022440823856,
+          "large_trade_ratio": 0.4
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 88.1,
+          "market_interest": "中度關注"
+        }
+      },
+      "rating": {
+        "total_score": 71.0,
+        "technical_score": 54.79,
+        "chip_score": 74.64,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "低風險",
+        "key_strengths": [
+          "量價配合良好",
+          "流動性佳",
+          "交易活躍"
+        ],
+        "key_risks": []
+      }
+    },
+    {
+      "stock_info": {
+        "Date": "2026-06-08",
+        "Code": "8454",
+        "Name": "富邦媒",
+        "TradeVolume": 4338756.0,
+        "TradeValue": 1465445111.0,
+        "OpeningPrice": 333.0,
+        "HighestPrice": 353.0,
+        "LowestPrice": 294.5,
+        "ClosingPrice": 353.0,
+        "Change": 32.0,
+        "Transaction": 8818.0,
+        "ChangePercent": 9.97,
+        "MarketValue": 1531580868.0,
+        "Score": 7.717502400000001
+      },
+      "technical_indicators": {
+        "price_position": 1.0,
+        "volatility": 17.56756756756757,
+        "price_momentum": 9.97,
+        "volume_intensity": 1531580868.0,
+        "volume_price_trend": "量價齊揚",
+        "relative_strength": 82.806268,
+        "momentum_score": 8.8527512,
+        "risk_level": "中風險",
+        "liquidity_score": 71.69378
+      },
+      "chip_analysis": {
+        "trading_characteristics": {
+          "avg_trade_amount": 166187.92367883874,
+          "avg_trade_volume": 492.0340213200272,
+          "total_transactions": 8818.0,
+          "trade_intensity": 4.338756
+        },
+        "investor_behavior": {
+          "investor_type": "中實戶參與",
+          "trading_pattern": "活躍交易",
+          "sentiment": "樂觀積極"
+        },
+        "chip_concentration": {
+          "concentration_level": "高度分散",
+          "avg_trade_size": 492.0340213200272,
+          "large_trade_ratio": 0.2
+        },
+        "market_participation": {
+          "activity_level": "極度活躍",
+          "participation_score": 94.650048,
+          "market_interest": "高度關注"
+        }
+      },
+      "rating": {
+        "total_score": 67.35,
+        "technical_score": 61.84,
+        "chip_score": 77.59,
+        "rating": "B+",
+        "recommendation": "中性偏多",
+        "risk_level": "中風險",
+        "key_strengths": [
+          "強勁動能",
+          "量價配合良好",
+          "收盤接近高點",
+          "流動性佳",
+          "市場情緒樂觀",
+          "交易活躍"
+        ],
+        "key_risks": [
+          "漲停回檔風險",
+          "波動性過大"
+        ]
+      }
+    }
+  ],
+  "potential_stocks_analysis": [],
+  "summary_statistics": {
+    "limit_up_summary": {
+      "count": 20,
+      "avg_score": 56.78150000000001,
+      "max_score": 79.15,
+      "min_score": 32.88
+    },
+    "strong_stocks_summary": {
+      "count": 20,
+      "avg_score": 74.352,
+      "max_score": 82.21,
+      "min_score": 66.13
+    },
+    "rating_distribution": {
+      "A": 14,
+      "B+": 14,
+      "C": 5,
+      "B": 3,
+      "D": 2,
+      "C+": 2
+    },
+    "risk_distribution": {
+      "中風險": 27,
+      "低風險": 13
+    }
+  }
+}
