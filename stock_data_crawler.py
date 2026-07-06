@@ -233,41 +233,41 @@ class StockDataCrawler:
             logger.error(f"識別強勢股票時發生錯誤: {e}")
             return pd.DataFrame()
     
-    def filter_small_cap_stocks(self, df: pd.DataFrame, 
-                               market_cap_threshold: float = 10000000000) -> pd.DataFrame:
+    def filter_small_cap_stocks(self, df: pd.DataFrame,
+                               volume_threshold: float = 1000000) -> pd.DataFrame:
         """
-        篩選小型股（市值較小的股票）
-        
+        篩選具備流動性的股票（成交量門檻，非市值）
+
+        原本用「成交金額（TradeVolume×ClosingPrice）≤ 100億」當市值代理排除股票，
+        但這只是當日成交金額，不是公司市值（TWSE 現有的 3 個資料端點都沒有真正的
+        股本/發行股數可算市值），用它篩選會誤判：低價高量股會被誤標成「小型股」，
+        高價但當日量縮的股票反而被排除，跟實際公司規模無關。既然選股邏輯本來就
+        只重視流動性、不在乎公司規模，改為只保留成交量下限（與 identify_strong_stocks
+        的門檻一致），不再假裝在篩市值。
+
         Args:
             df: 股票數據DataFrame
-            market_cap_threshold: 市值閾值（預設100億）
-            
+            volume_threshold: 成交量門檻（預設100萬股）
+
         Returns:
-            pd.DataFrame: 小型股數據
+            pd.DataFrame: 具備流動性的股票數據
         """
         if df.empty:
             return df
 
         try:
-            # 若 DataFrame 中沒有 MarketValue，嘗試用 TradeVolume 與 ClosingPrice 計算
-            if 'MarketValue' not in df.columns:
-                if 'TradeVolume' in df.columns and 'ClosingPrice' in df.columns:
-                    df['MarketValue'] = pd.to_numeric(df['TradeVolume'], errors='coerce') * pd.to_numeric(df['ClosingPrice'], errors='coerce')
-                else:
-                    # 無法計算 MarketValue，回傳原始 df
-                    logger.warning('無 MarketValue，且無法以 TradeVolume/ClosingPrice 計算，跳過小型股篩選')
-                    return df
+            if 'TradeVolume' not in df.columns:
+                logger.warning('無 TradeVolume 欄位，跳過流動性篩選')
+                return df
 
-            # 確保 MarketValue 為數值型別
-            df['MarketValue'] = pd.to_numeric(df['MarketValue'], errors='coerce').fillna(0)
+            df['TradeVolume'] = pd.to_numeric(df['TradeVolume'], errors='coerce').fillna(0)
 
-            # 篩選市值小於等於閾值的股票
-            small_cap_stocks = df[df['MarketValue'] <= market_cap_threshold].copy()
-            logger.info(f"篩選出 {len(small_cap_stocks)} 檔小型股 (閾值={market_cap_threshold})")
-            return small_cap_stocks
+            liquid_stocks = df[df['TradeVolume'] >= volume_threshold].copy()
+            logger.info(f"篩選出 {len(liquid_stocks)} 檔流動性達標股票 (成交量門檻={volume_threshold})")
+            return liquid_stocks
 
         except Exception as e:
-            logger.error(f"篩選小型股時發生錯誤: {e}")
+            logger.error(f"篩選流動性股票時發生錯誤: {e}")
             return df
     
     def get_comprehensive_data(self) -> Dict:
