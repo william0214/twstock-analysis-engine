@@ -416,8 +416,10 @@ class TechnicalAnalyzer:
             technical_score = 0
             
             # 動能分數 (40% - 提升) - 加強動能指標重要性
+            # calculate_momentum_score() 的實際最大值約為 10（非 30），故用 1.0 封頂
+            # 讓滿分動能真的貢獻 40 分，修正前 min(x/10, 3) 恆等於 1，動能實際只佔 13.33 分
             momentum_score = technical_indicators.get('momentum_score', 0)
-            technical_score += min(momentum_score / 10, 3) * 13.33
+            technical_score += min(momentum_score / 10, 1.0) * 40
             
             # 相對強度 (25%)
             relative_strength = technical_indicators.get('relative_strength', 0)
@@ -488,23 +490,27 @@ class TechnicalAnalyzer:
             # 確保分數在0-100範圍內
             total_score = max(0, min(100, total_score))
             
-            # 評級分類（提高門檻）
-            if total_score >= 85:  # 從80提升至85
+            # 評級分類
+            # 門檻重新校準：動能權重從 13.33 分修正回設計值 40 分後，漲停股（動能天生
+            # 接近滿分）的分數整體上移且在高分區大量群聚，若沿用舊門檻 A+ 會從 2 檔暴增
+            # 到 41 檔、失去鑑別度。以 2026-07-03 真實資料重新校準，使各級檔數比例貼近
+            # 修正前的分布（A+:2/A:35/B+:8/B:8/C+:5/C:14/D:2，共74檔）。
+            if total_score >= 98:
                 rating = 'A+'
                 recommendation = '強烈推薦'
-            elif total_score >= 75:  # 從70提升至75
+            elif total_score >= 90:
                 rating = 'A'
                 recommendation = '推薦'
-            elif total_score >= 65:  # 從60提升至65
+            elif total_score >= 80:
                 rating = 'B+'
                 recommendation = '中性偏多'
-            elif total_score >= 55:  # 從50提升至55
+            elif total_score >= 65:
                 rating = 'B'
                 recommendation = '中性'
-            elif total_score >= 45:  # 從40提升至45
+            elif total_score >= 55:
                 rating = 'C+'
                 recommendation = '中性偏空'
-            elif total_score >= 35:  # 從30提升至35
+            elif total_score >= 45:
                 rating = 'C'
                 recommendation = '不推薦'
             else:

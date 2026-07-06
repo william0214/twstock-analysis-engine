@@ -542,14 +542,14 @@ class MarketReportGenerator:
                 
                 if b_plus_recs:
                     recommendations.append("---\n\n")
-                    recommendations.append("### 🎯 B+ 級推薦 (高勝率潛力股)\n\n")
-                    recommendations.append("> **策略發現：**根據歷史數據分析，B+ 級股票展現出 **84.6% 成功率**和 **4.71% 平均報酬**，\n")
-                    recommendations.append("> 表現優於 A/A+ 級，屬於「甜蜜點」標的。這些股票技術面剛轉強但尚未過熱，\n")
-                    recommendations.append("> 市場關注度較低，具有更大的上漲空間。\n\n")
-                    
-                    recommendations.append("| 排名 | 股票代號 | 股票名稱 | 綜合評分 | 收盤價 | 成交量(萬股) | 漲幅(%) | 勝率參考 |\n")
-                    recommendations.append("|------|----------|----------|----------|--------|-------------|---------|----------|\n")
-                    
+                    recommendations.append("### 🎯 B+ 級推薦\n\n")
+                    recommendations.append("> B+ 級為技術面剛轉強、但尚未達 A/A+ 門檻的標的，市場關注度通常較低。\n")
+                    recommendations.append("> **本系統目前未對 B+ 級進行歷史勝率回測驗證**，請勿依賴任何具體勝率/報酬數字，\n")
+                    recommendations.append("> 僅供技術面參考，投資前請自行評估風險。\n\n")
+
+                    recommendations.append("| 排名 | 股票代號 | 股票名稱 | 綜合評分 | 收盤價 | 成交量(萬股) | 漲幅(%) |\n")
+                    recommendations.append("|------|----------|----------|----------|--------|-------------|---------|\n")
+
                     for i, rec in enumerate(b_plus_recs[:5], 1):
                         code = rec.get('code')
                         name = rec.get('name')
@@ -557,17 +557,10 @@ class MarketReportGenerator:
                         close = rec.get('closing_price', 0)
                         volume = rec.get('trade_volume', 0) / 10000 if rec.get('trade_volume') else 0
                         change_pct = rec.get('change_percent', 0)
-                        recommendations.append(f"| {i} | {code} | {name} | {score:.1f} | ${close:.2f} | {volume:.0f} | {change_pct:.2f} | 84.6% |\n")
-                    
-                    recommendations.append("\n**💡 B+ 級投資優勢：**\n\n")
-                    recommendations.append("1. **🎯 高勝率保證** - 歷史數據顯示成功率達 84.6%\n")
-                    recommendations.append("2. **📈 穩健報酬** - 平均 3 日報酬 4.71%，優於 A/A+ 級\n")
-                    recommendations.append("3. **⚡ 早期布局** - 技術面剛轉強，尚未引起市場廣泛關注\n")
-                    recommendations.append("4. **💰 最佳風險報酬比** - 處於「甜蜜點」，上漲潛力大於高評級股票\n")
-                    recommendations.append("5. **🔄 靈活操作** - 小型股特性，主力資金更容易推動\n\n")
-                    
-                    recommendations.append("**⚠️ 投資提醒：**\n")
-                    recommendations.append("- B+ 級股票雖然勝率高，但仍需注意個股基本面\n")
+                        recommendations.append(f"| {i} | {code} | {name} | {score:.1f} | ${close:.2f} | {volume:.0f} | {change_pct:.2f} |\n")
+
+                    recommendations.append("\n**⚠️ 投資提醒：**\n")
+                    recommendations.append("- B+ 級尚未經過歷史回測驗證，風險特性未知，請務必自行評估基本面\n")
                     recommendations.append("- 建議分批買入，設定停損點\n")
                     recommendations.append("- 密切關注成交量變化和技術指標\n\n")
                     recommendations.append("---\n\n")
