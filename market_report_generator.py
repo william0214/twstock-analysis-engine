@@ -216,6 +216,11 @@ class MarketReportGenerator:
         try:
             stocks = self.stock_data.get('all_stocks') if self.stock_data else None
             if not stocks:
+                # production 的 self.stock_data 來自 API（latest_analysis.json），
+                # 精簡結構不含 all_stocks；退而直接讀最新原始快照計算全市場寬度。
+                snap = self.load_latest_stock_data()
+                stocks = snap.get('all_stocks') if snap else None
+            if not stocks:
                 return None
             up = tot = 0
             for s in stocks:
