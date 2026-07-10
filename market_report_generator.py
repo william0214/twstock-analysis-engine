@@ -16,6 +16,9 @@ from config import STOCK_DATA_DIR, TECHNICAL_ANALYSIS_DIR, MARKET_ANALYSIS_DIR
 # 報告版本資訊
 REPORT_VERSION = "第2版"
 
+# 市場行情濾網門檻（研究性質）：訊號日全市場寬度 ≥ 此值才視為相對有利區間
+REGIME_BREADTH_THRESHOLD = 50.0
+
 # 設置日誌
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -204,6 +207,56 @@ class MarketReportGenerator:
             logger.error(f"載入技術分析數據失敗: {e}")
             return {}
     
+    def compute_market_breadth(self):
+        """計算全市場寬度：4 位數普通股中上漲家數占比（%）。資料不足回傳 None。
+
+        用「訊號日收盤」的全市場資料——報告當天早上即可得的前一交易日收盤，
+        不偷看未來。只算 4 位數普通股（濾掉 ETF / 權證等），與回測口徑一致。
+        """
+        try:
+            stocks = self.stock_data.get('all_stocks') if self.stock_data else None
+            if not stocks:
+                return None
+            up = tot = 0
+            for s in stocks:
+                code = str(s.get('Code', ''))
+                if len(code) != 4 or not code[0].isdigit():
+                    continue
+                try:
+                    chg = float(s.get('ChangePercent', 0))
+                except (TypeError, ValueError):
+                    continue
+                tot += 1
+                if chg > 0:
+                    up += 1
+            if tot == 0:
+                return None
+            return up / tot * 100
+        except Exception as e:
+            logger.error(f"計算市場寬度時發生錯誤: {e}")
+            return None
+
+    def generate_regime_flag(self) -> str:
+        """生成市場行情濾網旗標（research 標籤，非投資建議）"""
+        breadth = self.compute_market_breadth()
+        if breadth is None:
+            return ""  # 資料不足則不顯示，不影響其餘報告
+        favorable = breadth >= REGIME_BREADTH_THRESHOLD
+        light = "🟢 相對有利區間" if favorable else "🔴 轉弱，建議觀望"
+        parts = []
+        parts.append("## 📊 市場行情濾網（研究性質，非投資建議）\n\n")
+        parts.append(f"- **今日全市場寬度：** {breadth:.1f}%（4 位數普通股上漲家數占比）\n")
+        parts.append(f"- **訊號燈：** {light}"
+                     f"（門檻 {REGIME_BREADTH_THRESHOLD:.0f}%）\n\n")
+        parts.append("> 這是一個**實驗性**濾網：回測（2 個行情窗口、多頭+空頭）顯示，"
+                     "「僅在訊號日大盤寬度 ≥ 50% 時進場、持有約 5 個交易日」的中位報酬"
+                     "在多空兩段皆為正，寬度低於門檻的日子則明顯較差。\n"
+                     ">\n"
+                     "> **重大限制：** 僅 2 個行情窗口、小樣本，尚未經多窗口 walk-forward 與"
+                     "交易成本驗證。此旗標僅供研究參考，**不構成任何進出場或投資建議**。\n\n")
+        parts.append("---\n\n")
+        return "".join(parts)
+
     def generate_executive_summary(self) -> str:
         """生成執行摘要"""
         try:
@@ -714,7 +767,10 @@ class MarketReportGenerator:
         report_parts.append(f"**報告版本：** {REPORT_VERSION}\n")
         report_parts.append(f"**報告日期：** {datetime.now().strftime('%Y年%m月%d日')}\n")
         report_parts.append(f"**分析時間：** {datetime.now().strftime('%H:%M:%S')}\n\n")
-        
+
+        # 市場行情濾網旗標（research，資料不足時回傳空字串、自動略過）
+        report_parts.append(self.generate_regime_flag())
+
         # 各個章節
         report_parts.append(self.generate_executive_summary())
         report_parts.append(self.generate_market_analysis())
