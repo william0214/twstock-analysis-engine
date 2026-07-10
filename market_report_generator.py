@@ -16,9 +16,6 @@ from config import STOCK_DATA_DIR, TECHNICAL_ANALYSIS_DIR, MARKET_ANALYSIS_DIR
 # 報告版本資訊
 REPORT_VERSION = "第2版"
 
-# 市場行情濾網門檻（研究性質）：訊號日全市場寬度 ≥ 此值才視為相對有利區間
-REGIME_BREADTH_THRESHOLD = 50.0
-
 # 設置日誌
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -242,23 +239,20 @@ class MarketReportGenerator:
             return None
 
     def generate_regime_flag(self) -> str:
-        """生成市場行情濾網旗標（research 標籤，非投資建議）"""
+        """生成市場寬度脈絡（純數字呈現，非訊號）
+
+        原本附有綠/紅燈 go-no-go 建議（寬度≥50% 濾網），但 2025 全年 240 交易日
+        walk-forward 檢驗顯示該濾網無法 generalize（綠紅燈勝率無差、分季反覆），
+        故移除燈號與回測宣稱，只保留寬度數字作為誠實的行情脈絡。
+        """
         breadth = self.compute_market_breadth()
         if breadth is None:
             return ""  # 資料不足則不顯示，不影響其餘報告
-        favorable = breadth >= REGIME_BREADTH_THRESHOLD
-        light = "🟢 相對有利區間" if favorable else "🔴 轉弱，建議觀望"
         parts = []
-        parts.append("## 📊 市場行情濾網（研究性質，非投資建議）\n\n")
-        parts.append(f"- **今日全市場寬度：** {breadth:.1f}%（4 位數普通股上漲家數占比）\n")
-        parts.append(f"- **訊號燈：** {light}"
-                     f"（門檻 {REGIME_BREADTH_THRESHOLD:.0f}%）\n\n")
-        parts.append("> 這是一個**實驗性**濾網：回測（2 個行情窗口、多頭+空頭）顯示，"
-                     "「僅在訊號日大盤寬度 ≥ 50% 時進場、持有約 5 個交易日」的中位報酬"
-                     "在多空兩段皆為正，寬度低於門檻的日子則明顯較差。\n"
-                     ">\n"
-                     "> **重大限制：** 僅 2 個行情窗口、小樣本，尚未經多窗口 walk-forward 與"
-                     "交易成本驗證。此旗標僅供研究參考，**不構成任何進出場或投資建議**。\n\n")
+        parts.append("## 📊 市場寬度\n\n")
+        parts.append(f"- **今日全市場寬度：** {breadth:.1f}%（4 位數普通股上漲家數占比）\n\n")
+        parts.append("> 市場寬度反映前一交易日全市場的漲跌家數結構，僅為行情脈絡參考，"
+                     "**不構成任何進出場或投資建議**。\n\n")
         parts.append("---\n\n")
         return "".join(parts)
 
